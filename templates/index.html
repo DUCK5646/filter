@@ -1,0 +1,61 @@
+
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>OZZYtron</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+ <nav class="navbar navbar-expand-sm bg-light">
+
+  <div class="container-fluid">
+    <!-- Links -->
+    <ul class="navbar-nav ">
+      <li class="nav-item ">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container-fluid p-5 bg-success text-white text-center ">
+  <h1>Welcome to Ozzytron</h1>
+  <p> Play a noise amd the system will show how similar (if at all) it is to Ozzy Osborn's music.</p>
+
+</div>
+
+ <div class="container mt-5 ">
+  <div class="row">
+    <div class="col-sm-4">
+        <img src="/static/ozzy1.jpeg" class="card-img-top" width="400" alt="Ozzy">
+    </div>
+    <div class="col-sm-4 " style="text-align: center ">
+        <div id="sketch-holder">
+      <!-- Our sketch will go here! -->
+    </div>
+        <script src="/static/sketch.js"></script>
+    </div>
+    <div class="col-sm-4">
+        <img src="/static/ozzy2.jpg" class="card-img-top" width="400" alt="Ozzy">
+    </div>
+
+  </div>
+
+
+ </div>
+
+</body>
+
+</html>
